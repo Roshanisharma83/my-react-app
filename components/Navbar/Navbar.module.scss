@@ -1,0 +1,42 @@
+$color-primary: pink;
+$color-secondary:red;
+$color-dark:#000;
+ $font-weight:(
+     "regular:400",
+     "medium:500"
+ );
+
+
+.navigation_h1{
+    
+    background-color:$color-secondary;
+    width: 100%;
+    height: 80px;
+}
+.navbar{
+   
+
+    ul{
+        
+        padding: 0px;
+        list-style: none;
+        background: $color-dark;
+
+        li{
+            display: inline-block;
+            color: $color-dark;
+
+            a{
+                display: block;
+                padding: 6px 12px;
+                text-decoration: none;
+                color: $color-primary;
+            }
+        }
+    }
+
+   
+
+    
+
+}
